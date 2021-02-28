@@ -27,6 +27,9 @@ About page:
 Contact page:
 ![image (3)-1](https://user-images.githubusercontent.com/78197235/108606474-735acb80-73e4-11eb-89ba-4278f81966a3.png)
 
+Route /post:
+![With(slash post)](https://user-images.githubusercontent.com/78197235/109422302-2fc81900-7a05-11eb-9f0a-a31c7eec7392.png)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
