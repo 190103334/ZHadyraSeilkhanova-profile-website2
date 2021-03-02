@@ -30,6 +30,16 @@ Contact page:
 Route /post:
 ![With(slash post)](https://user-images.githubusercontent.com/78197235/109422302-2fc81900-7a05-11eb-9f0a-a31c7eec7392.png)
 
+----------------------------------------------------------------------------------------------------------------
+Lab5:
+
+post/create:
+![postcreate](https://user-images.githubusercontent.com/78197235/109706532-461bd380-7bc3-11eb-9026-1a159e581e5b.png)
+
+post:
+![postroute](https://user-images.githubusercontent.com/78197235/109706536-47e59700-7bc3-11eb-9971-b1cf08a44441.png)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
