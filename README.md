@@ -29,3 +29,15 @@ Contact page:
 
 With the route /post:
 ![With(slash post)](https://user-images.githubusercontent.com/78197235/109422302-2fc81900-7a05-11eb-9f0a-a31c7eec7392.png)
+
+-----------------------------------------------------------------------------------------------------------------
+
+Lab6:
+
+/post/1:
+
+![post1](https://user-images.githubusercontent.com/78197235/111058772-df4bc380-84ba-11eb-8ce7-6fe106f387b1.png)
+
+/post/10000:
+
+![post10000](https://user-images.githubusercontent.com/78197235/111058774-dfe45a00-84ba-11eb-9e0b-c02b64d3c3bc.png)
