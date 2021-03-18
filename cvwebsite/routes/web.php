@@ -43,16 +43,17 @@ Route::get('/post/create', function () {
     ]);
 });
 
+Route::get('/post', function(){
+   $post = post::find(1);
+   return $post;
+});
 
 Route::get('blog', [BlogController::class, 'index']);
 Route::get('blog/create', function(){
      return view('post.create');
 });
 
-<<<<<<< HEAD
+
 Route::post('blog/create', [BlogController::class, 'store'])->name('add-post');
-=======
-Route::post('post/create', [BlogController::class, 'store'])->name('add-post');
->>>>>>> e4127c8212bdcecd137fecc086df3df0fc95de7a
 
 Route::get('post/{id}', [BlogController::class, 'get_post']);

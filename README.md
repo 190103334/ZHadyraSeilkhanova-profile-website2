@@ -30,22 +30,16 @@ Contact page:
 With the route /post:
 ![With(slash post)](https://user-images.githubusercontent.com/78197235/109422302-2fc81900-7a05-11eb-9f0a-a31c7eec7392.png)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lab5:
 
-post/create:
+blog/create:
 
-![postcreate](https://user-images.githubusercontent.com/78197235/109706532-461bd380-7bc3-11eb-9026-1a159e581e5b.png)
+![blogCreate](https://user-images.githubusercontent.com/78197235/111578365-35cc4100-87de-11eb-9bc1-649e738bd0bb.png)
 
-post:
+blog:
 
-![postroute](https://user-images.githubusercontent.com/78197235/109706536-47e59700-7bc3-11eb-9971-b1cf08a44441.png)
-=======
-=======
->>>>>>> e4127c8212bdcecd137fecc086df3df0fc95de7a
------------------------------------------------------------------------------------------------------------------
+![blog](https://user-images.githubusercontent.com/78197235/111578364-349b1400-87de-11eb-9d52-8b1ed81b9222.png)
+
 
 Lab6:
 
@@ -55,9 +49,7 @@ Lab6:
 
 /post/10000:
 
-<<<<<<< HEAD
 ![post10000](https://user-images.githubusercontent.com/78197235/111058774-dfe45a00-84ba-11eb-9e0b-c02b64d3c3bc.png)
->>>>>>> e4127c8 (Lab6)
-=======
+
 ![post10000](https://user-images.githubusercontent.com/78197235/111058774-dfe45a00-84ba-11eb-9e0b-c02b64d3c3bc.png)
->>>>>>> e4127c8212bdcecd137fecc086df3df0fc95de7a
+
