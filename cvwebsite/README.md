@@ -30,7 +30,7 @@ Contact page:
 Route /post:
 ![With(slash post)](https://user-images.githubusercontent.com/78197235/109422302-2fc81900-7a05-11eb-9f0a-a31c7eec7392.png)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 Lab5:
 
@@ -54,6 +54,25 @@ Lab6:
 /post/10000:
 
 ![post10000](https://user-images.githubusercontent.com/78197235/111058774-dfe45a00-84ba-11eb-9e0b-c02b64d3c3bc.png)
+
+---------------------------------------------------------------------------------------------------------------------
+
+Lab7:
+
+api/posts:
+
+![APIposts](https://user-images.githubusercontent.com/78197235/111869298-e0905b00-89a8-11eb-83bc-2057b006dd25.png)
+
+api/posts/details:
+
+-- If there is 
+
+![postDetails](https://user-images.githubusercontent.com/78197235/111869301-e423e200-89a8-11eb-93a5-0ef0db033067.png)
+
+-- Is there is no post
+
+![postDetailsNoPost](https://user-images.githubusercontent.com/78197235/111869300-e1c18800-89a8-11eb-8c3d-df9871920e66.png)
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>

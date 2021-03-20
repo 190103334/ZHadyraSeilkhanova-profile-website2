@@ -40,6 +40,7 @@ blog:
 
 ![blog](https://user-images.githubusercontent.com/78197235/111578364-349b1400-87de-11eb-9d52-8b1ed81b9222.png)
 
+---------------------------------------------------------------------------------------------------------------------
 
 Lab6:
 
@@ -53,3 +54,20 @@ Lab6:
 
 ![post10000](https://user-images.githubusercontent.com/78197235/111058774-dfe45a00-84ba-11eb-9e0b-c02b64d3c3bc.png)
 
+---------------------------------------------------------------------------------------------------------------------
+
+Lab7:
+
+api/posts:
+
+![APIposts](https://user-images.githubusercontent.com/78197235/111869298-e0905b00-89a8-11eb-83bc-2057b006dd25.png)
+
+api/posts/details:
+
+-- If there is 
+
+![postDetails](https://user-images.githubusercontent.com/78197235/111869301-e423e200-89a8-11eb-93a5-0ef0db033067.png)
+
+-- Is there is no post
+
+![postDetailsNoPost](https://user-images.githubusercontent.com/78197235/111869300-e1c18800-89a8-11eb-8c3d-df9871920e66.png)
