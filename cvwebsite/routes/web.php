@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\DB;
 
 use App\Models\Post;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\NinethController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -57,3 +59,14 @@ Route::get('blog/create', function(){
 Route::post('blog/create', [BlogController::class, 'store'])->name('add-post');
 
 Route::get('post/{id}', [BlogController::class, 'get_post']);
+
+
+// Laboratory 9
+
+Route::get('{lang}',function ($lang){
+	App()->setLocale($lang);
+	return view('main'); //main, about, contact
+});
+
+Route::get('lang/{lang}', [NinethController::class, 'index']);
+

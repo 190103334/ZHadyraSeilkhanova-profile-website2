@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
     <link rel="stylesheet" href="{{asset('/css/stylesContact.css')}}"/>
-<<<<<<< HEAD
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-=======
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
->>>>>>> ed19337c3612a5e4af01ac249160dd9cf6c43ebb
+
+    <style>
+       .dropdown-menu-dropdown-menu-right > option > a{
+            color: #B429CB;
+            text-decoration: none;
+        }
+
+        .l-header{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dropdown-menu-dropdown-menu-right > a{
+            display: inline-block;
+            padding: 10px;
+        }
+    </style>
   </head>
   
   <body>
-
+  @extends('layout')
+  @section('content')
      <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
@@ -22,10 +37,16 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="http://127.0.0.1:8000/main" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="http://127.0.0.1:8000/about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="http://127.0.0.1:8000/contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="http://127.0.0.1:8000/main" class="nav__link active">{{__('lang.home')}}</a></li>
+                        <li class="nav__item"><a href="http://127.0.0.1:8000/about" class="nav__link">{{__('lang.about')}}</a></li>
+                        <li class="nav__item"><a href="http://127.0.0.1:8000/contact" class="nav__link">{{__('lang.contact')}}</a></li>
                     </ul>
+                </div>
+
+                <div class="dropdown-menu-dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="en"> <img src="https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg" width="20" alt=""> English</a>
+                            <a class="dropdown-item" href="kz"><img src="https://www.akorda.kz/assets/media/flag.jpg" width="20" alt="">Қазақ тілі</a>
+                            <a class="dropdown-item" href="ru"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png" width="20" alt="">Русский язык</a>
                 </div>
                 
                 <div class="nav__toggle" id="nav-toggle">
@@ -39,32 +60,28 @@
       <img src="img/shape.png" class="square" alt="" />
       <div class="form">
         <div class="contact-info">
-          <h3 class="title">Let's get in touch!</h3>
+          <h3 class="title"> {{__('lang.lets')}}</h3>
           <p class="text">
-               Getting in touch is easy!
-               Thank you for finding the time to visit my website. Your feedback is important to me, 
-               as I learn much from what you have to say. It is great to hear what I am doing right,
-               and it is constructive to hear what I can do to improve. I’d love to hear your thoughts 
-               and answer any questions you may have!
+             {{__('lang.get')}}
           </p>
 
           <div class="info">
             <div class="information">
               <img src="img/location.png" class="icon" alt="" />
-              <p>Al-Farabi 98-45, Kentau</p>
+              <p> {{__('lang.address')}}</p>
             </div>
             <div class="information">
               <img src="img/email.png" class="icon" alt="" />
-              <p>190103334@stu.sdu.edu.kz</p>
+              <p> {{__('lang.email')}}</p>
             </div>
             <div class="information">
               <img src="img/phone.png" class="icon" alt="" />
-              <p>87086920916</p>
+              <p> {{__('lang.tel')}}</p>
             </div>
           </div>
 
           <div class="social-media">
-            <p>Connect with me :</p>
+            <p> {{__('lang.connect')}}</p>
             <div class="social-icons" >
               <a href="https://www.instagram.com/_zh.s.s/">
                  <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -84,31 +101,32 @@
           <span class="circle two"></span>
 
           <form action="index.html" autocomplete="off">
-            <h3 class="title">Contact me</h3>
+            <h3 class="title">{{__('lang.cm')}}</h3>
             <div class="input-container">
               <input type="text" name="name" class="input" />
-              <label for="">Username</label>
-              <span>Username</span>
+              <label for="">{{__('lang.username')}}</label>
+              <span>{{__('lang.username')}}</span>
             </div>
             <div class="input-container">
               <input type="email" name="email" class="input" />
-              <label for="">Email</label>
-              <span>Email</span>
+              <label for="">{{__('lang.e')}}</label>
+              <span>{{__('lang.e')}}</span>
             </div>
             <div class="input-container">
               <input type="tel" name="phone" class="input" />
-              <label for="">Phone</label>
-              <span>Phone</span>
+              <label for="">{{__('lang.phone')}}</label>
+              <span>{{__('lang.phone')}}</span>
             </div>
             <div class="input-container textarea">
               <textarea name="message" class="input"></textarea>
-              <label for="">Message</label>
-              <span>Message</span>
+              <label for="">{{__('lang.message')}}</label>
+              <span>{{__('lang.message')}}</span>
             </div>
-            <input type="submit" value="Send" class="btn" />
+            <input type="submit" placeholder="{{__('lang.send')}}" class="btn" />
           </form>
         </div>
       </div>
     </div>
+    @endsection
   </body>
 </html>
