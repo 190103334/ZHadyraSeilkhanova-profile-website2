@@ -64,7 +64,7 @@ api/posts:
 
 api/posts/details:
 
--- If there is 
+-- If there is a post
 
 ![postDetails](https://user-images.githubusercontent.com/78197235/111869301-e423e200-89a8-11eb-93a5-0ef0db033067.png)
 
