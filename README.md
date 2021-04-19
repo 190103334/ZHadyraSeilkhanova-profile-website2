@@ -71,3 +71,7 @@ api/posts/details:
 -- Is there is no post
 
 ![postDetailsNoPost](https://user-images.githubusercontent.com/78197235/111869300-e1c18800-89a8-11eb-8c3d-df9871920e66.png)
+
+Here is my diagram:
+
+![eggs](https://user-images.githubusercontent.com/78197235/115285691-fb085080-a16f-11eb-97ee-83ce8c0c68e3.jpg)
